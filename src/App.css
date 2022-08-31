@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=Abel');
+
+html, body {
+    background: #FCEEB5;
+    font-family: Abel, Arial, Verdana, sans-serif;
+}
+
+.general{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+}
+
+.card{
+    text-align: center;
+    margin: 0 auto;
+    width: 350px;
+    background-color: #fff;
+    background: linear-gradient(#f8f8f8, #fff);
+    box-shadow: 0 8px 16px -8px rgba(0,0,0,0.4);
+    border-radius: 6px;
+    margin: 1.5rem;
+  }
+
+  h1 {
+    margin: auto;
+  }
+  button{
+    width: 150px;
+    margin: 15px;
+    padding: 5px;
+    background-color: #334B48;
+    color: #FFFFFF;
+    font-size: 14px;
+    border-radius: 10px;
+  }
+
+  button:hover{
+    background-color: #96B1AC;
+    color: #334B48;
+    box-shadow: 1px 1px 5px rgba(0,0,0.1);
+  }
+
+  img{
+    border-radius: 50%;
+    margin: 15px;
+  }
